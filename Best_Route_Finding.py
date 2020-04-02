@@ -14,6 +14,11 @@ for i in range(Row):
     for j in range(Column):      
          a.append(int(input())) 
     matrix.append(a)
+    
+for i in range(Row): 
+    for j in range(Column): 
+        print(matrix[i][j], end = " ") 
+    print()     
 
 A = int(input("Enter first start index:"))
 B = int(input("Enter second start index:"))    
